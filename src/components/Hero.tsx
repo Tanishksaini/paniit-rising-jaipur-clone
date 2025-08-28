@@ -43,11 +43,11 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center items-center gap-6 mb-8 text-primary-foreground/80">
             <div className="flex items-center gap-2">
-              <Calendar className="w-5 h-5 text-accent" />
+              <Calendar className="w-5 h-5 text-[#d62e26]" />
               <span className="font-medium">1–2 November 2025</span>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-accent" />
+              <MapPin className="w-5 h-5 text-[#d62e26]" />
               <span className="font-medium">Rajasthan International Centre, Jaipur</span>
             </div>
           </div>
@@ -63,19 +63,19 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
             <Button variant="ghost" className="text-primary-foreground hover:bg-white/10 hover-lift p-4 h-auto flex-col">
-              <Mic className="w-6 h-6 mb-2 text-accent" />
+              <Mic className="w-6 h-6 mb-2 text-[#d62e26]" />
               <span className="text-sm">Exhibit Your Startup</span>
             </Button>
             <Button variant="ghost" className="text-primary-foreground hover:bg-white/10 hover-lift p-4 h-auto flex-col">
-              <Users className="w-6 h-6 mb-2 text-accent" />
+              <Users className="w-6 h-6 mb-2 text-[#d62e26]" />
               <span className="text-sm">Nominate to Speak</span>
             </Button>
             <Button variant="ghost" className="text-primary-foreground hover:bg-white/10 hover-lift p-4 h-auto flex-col">
-              <Calendar className="w-6 h-6 mb-2 text-accent" />
+              <Calendar className="w-6 h-6 mb-2 text-[#d62e26]" />
               <span className="text-sm">View Agenda</span>
             </Button>
             <Button variant="ghost" className="text-primary-foreground hover:bg-white/10 hover-lift p-4 h-auto flex-col">
-              <MapPin className="w-6 h-6 mb-2 text-accent" />
+              <MapPin className="w-6 h-6 mb-2 text-[#d62e26]" />
               <span className="text-sm">Venue Details</span>
             </Button>
           </div>

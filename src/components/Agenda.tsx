@@ -110,8 +110,8 @@ const Agenda = () => {
         <div className="max-w-6xl mx-auto">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-8">
-              <TabsTrigger value="day1" className="text-lg">Day 1 - Sat, 1 Nov 2025</TabsTrigger>
-              <TabsTrigger value="day2" className="text-lg">Day 2 - Sun, 2 Nov 2025</TabsTrigger>
+              <TabsTrigger value="day1" className="text-s md:text-lg">Day 1 - Sat, 1 Nov 2025</TabsTrigger>
+              <TabsTrigger value="day2" className="text-s md:text-lg">Day 2 - Sun, 2 Nov 2025</TabsTrigger>
             </TabsList>
             
             <TabsContent value="day1" className="space-y-6">
