@@ -17,33 +17,27 @@ const About = () => {
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mt-12">
-              <div className="card-gradient rounded-lg p-6 hover-glow glow-shadow animate-slide-up gradient-border" style={{ animationDelay: "0.2s" }}>
-                <div className="p-1">
-                  <div className="text-accent text-4xl font-bold mb-2 animate-pulse-glow">AI</div>
-                  <div className="text-primary font-semibold mb-2">Powered by Technology</div>
-                  <div className="text-muted-foreground text-sm">
-                    Exploring cutting-edge AI applications across healthcare, governance, and smart cities
-                  </div>
+              <div className="card-gradient rounded-lg p-6 hover-lift brand-shadow">
+                <div className="text-accent text-4xl font-bold mb-2">AI</div>
+                <div className="text-primary font-semibold mb-2">Powered by Technology</div>
+                <div className="text-muted-foreground text-sm">
+                  Exploring cutting-edge AI applications across healthcare, governance, and smart cities
                 </div>
               </div>
               
-              <div className="card-gradient rounded-lg p-6 hover-glow glow-shadow animate-slide-up gradient-border" style={{ animationDelay: "0.4s" }}>
-                <div className="p-1">
-                  <div className="text-accent text-4xl font-bold mb-2 animate-pulse-glow">IIT</div>
-                  <div className="text-primary font-semibold mb-2">Driven by Community</div>
-                  <div className="text-muted-foreground text-sm">
-                    Leveraging the global IIT alumni network for innovation and collaboration
-                  </div>
+              <div className="card-gradient rounded-lg p-6 hover-lift brand-shadow">
+                <div className="text-accent text-4xl font-bold mb-2">IIT</div>
+                <div className="text-primary font-semibold mb-2">Driven by Community</div>
+                <div className="text-muted-foreground text-sm">
+                  Leveraging the global IIT alumni network for innovation and collaboration
                 </div>
               </div>
               
-              <div className="card-gradient rounded-lg p-6 hover-glow glow-shadow animate-slide-up gradient-border" style={{ animationDelay: "0.6s" }}>
-                <div className="p-1">
-                  <div className="text-accent text-4xl font-bold mb-2 animate-pulse-glow">RJ</div>
-                  <div className="text-primary font-semibold mb-2">Rooted in Rajasthan</div>
-                  <div className="text-muted-foreground text-sm">
-                    Building on Rajasthan's heritage while pioneering its digital future
-                  </div>
+              <div className="card-gradient rounded-lg p-6 hover-lift brand-shadow">
+                <div className="text-accent text-4xl font-bold mb-2">RJ</div>
+                <div className="text-primary font-semibold mb-2">Rooted in Rajasthan</div>
+                <div className="text-muted-foreground text-sm">
+                  Building on Rajasthan's heritage while pioneering its digital future
                 </div>
               </div>
             </div>
